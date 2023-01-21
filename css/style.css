@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    max-width: 1140px;
+    margin: 130px auto;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 24px;
+    text-align: center;
+}
+/* === Header Area */
+
+.header-area {
+    max-width: 1600px;
+    height: 800px;
+
+}
+
+.banner {
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.banner-text {
+    max-width: 400px;
+    padding-right: 180px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.banner-headline {
+    font-size: 65px;
+    line-height: 4.5rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.description-text {
+    font-size: 16px;
+    line-height: 1.7rem;
+    margin-bottom: 25px;
+}
+
+.btn {
+    padding: 15px 30px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/* === Main Area === */
+
+.pre-year-review{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 0 30px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+ul li{
+    list-style: none;
+    line-height: 1.7;
+}
+
+.check-mark{
+    color: #16D887;
+    margin-right: 10px;
+}
+
+/* === */
+.plan-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-item{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.plan-description{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+/* === */
+.gradient-area{
+    height: 300px;
+    background-image: url(../images/watch.png);
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.gradient-text{
+    text-align: left;
+}
+
+.gradient-text h2{
+    text-align: left;
+    color: #ffffff;
+}
+
+/* === */
+
+.footer-area{
+    background: #151414;
+    padding: 130px 230px;
+    color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-text{
+    max-width: 450px;
+}
+
+.footer-text h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.social img{
+    width: 46px;
+    height: 46px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.contact h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact input[type="email"]{
+    padding: 15px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 110%;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
