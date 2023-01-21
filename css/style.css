@@ -12,7 +12,7 @@ h2{
     font-weight: 700;
     color: #151414;
     margin-bottom: 24px;
-    text-align: center;
+    
 }
 /* === Header Area */
 
@@ -68,10 +68,51 @@ h2{
 
 /* === Main Area === */
 
+/* Intro */
+
+.intro-area{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.intro-text{
+    text-align: left;
+}
+
+.intro-greet{
+    font-size: 25px;
+    color: #005FAC;
+    margin-bottom: 15px;
+}
+
+.intro-heading{
+    font-size: 50px;
+}
+
+.intro-btn{
+    border: 1px solid #005FAC;
+    
+}
+.intro-btn:hover{
+    background-color: #005FAC;
+    color: #ffffff;
+}
+.author-img {
+    height: 450px;
+}
+
+.author-img img{
+    height: 100%;
+}
+
+/* Pre Yrar */
+
 .pre-year-review{
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 300px;
     padding: 0 30px;
     margin-top: 130px;
     margin-bottom: 130px;
@@ -83,11 +124,14 @@ ul li{
 }
 
 .check-mark{
-    color: #16D887;
+    color: #005FAC;
     margin-right: 10px;
 }
 
-/* === */
+/* Plan Area */
+.plan-heading{
+    text-align: center;
+}
 .plan-area{
     display: flex;
     justify-content: space-between;
@@ -113,11 +157,13 @@ ul li{
 /* === */
 .gradient-area{
     height: 300px;
-    background-image: url(../images/watch.png);
+    /* background-image: url(../images/watch.png); */
+    background-image:linear-gradient(to left, rgba(240, 237, 237, 0.814), #005FAC);;
     display: flex;
     align-content: flex-start;
     align-items: center;
     padding-left: 60px;
+    border-radius: 5px;
 }
 
 .gradient-text{
@@ -129,7 +175,7 @@ ul li{
     color: #ffffff;
 }
 
-/* === */
+/* Footer */
 
 .footer-area{
     background: #151414;
